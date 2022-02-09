@@ -1,5 +1,5 @@
 # ComicWorld
-一个漫画网站，前端：html；后端：express
+一个漫画网站，前端：html+Jscript（JQ）+CSS；后端：express
 很久以前做的，作为纪念。
 
 # 如何使用它？
