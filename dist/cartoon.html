@@ -65,26 +65,5 @@
 		</div>
 	  </footer>
 </body>
-<script>
-$(function() {
-	var cartoon = getQueryString('cartoon');
-    document.title = "Comic | "+cartoon;
-	$('#cartoon-title').html("<i class='mdi mdi-archive-check'></i> " + cartoon);
-	$('#cartoon-cover').attr("src","store/" + cartoon + "/cover.jpg");
-	var list = $('#list');
-	var host = window.location.host;
-	$.getJSON('http://' + host + '/get_chapter_list?cartoon=' + cartoon, function(data) {
-		if (data['code'] != 0) {
-		    $('#wrong-content').text(JSON.stringify(data));
-            metroDialog.open('#dialog');
-            return;
-		}
-		var chapter_list = data['chapter'];
-		chapter_list.forEach(function(data) {
-			list.append('<a href="chapter.html?cartoon=' + cartoon + '&chapter=' + data + '" class="list-group-item list-group-item-action">' + data + '</a>')
-		});
-	});
-
-});
-</script>
+<script src="js/cartoon.js"></script>
 </html>
