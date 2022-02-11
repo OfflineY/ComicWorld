@@ -8,8 +8,6 @@
 
 3.双击 Comic.exe 运行，如下图。
 
-![](http://imgsrc.baidu.com/super/pic/item/58ee3d6d55fbb2fbe69c21c00a4a20a44723dca9.jpg)
-
 4.访问[http://localhost:3000/](http://localhost:3000/)即可。
 
 注：最近jsdelivr总是抽风，如果页面显示不正常打开public更改html即可
