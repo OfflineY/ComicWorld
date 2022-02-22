@@ -6,7 +6,7 @@
 
 2.安装依赖： npm i 或者 cnpm i 或者其他。
 
-3.双击 Comic.exe 运行，如下图。
+3.双击 Comic.exe 运行。
 
 4.访问[http://localhost:3000/](http://localhost:3000/)即可。
 
