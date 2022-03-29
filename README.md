@@ -11,7 +11,7 @@
 
 1. 克隆整个仓库
 2. 安装依赖： npm i 或者 cnpm i 或者其他。
-3. 双击 Comic.exe 运行。
+3. node main 运行。
 4. 访问[http://localhost:3000/](http://localhost:3000/)即可。
 
 > 更改端口详见注意事项
